@@ -1,0 +1,72 @@
+.deals-bg {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  margin-top: 10px;
+  filter: brightness(0.9);
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.deals-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.deals-text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03); 
+}
+
+.card h3 {
+  font-family: Objectivity;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.shop-now {
+  width: 100%; 
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #E0E0E0;
+}
+
+.organic-text1 {
+  color: #E8B34E;
+}
+
+.organic-text2 {
+  color: #2FC3E3;
+}
+
+.organic-text3 {
+  color: #EB4D34;
+}
+
+.organic-text4 {
+  color: #88BD40;
+}

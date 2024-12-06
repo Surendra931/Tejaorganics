@@ -1,0 +1,76 @@
+/* Login.css */
+
+.login-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-modal {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Increased width */
+  text-align: center;
+  position: relative; /* Position relative for the close icon */
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 24px;
+  color: #333;
+  margin: 0; /* Remove default margin */
+}
+
+.close-icon {
+  cursor: pointer;
+  color: #333; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.login-input:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.login-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
